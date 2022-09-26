@@ -1,0 +1,34 @@
+$black: #222222; // black 색상 선언
+$blue: #0b1861;
+
+.background {
+    background: url("../img/sunset.jpeg") center no-repeat;
+    object-fit: contain;
+    width: 100%;
+    height: 35rem;
+}
+
+.body {
+    font-family: 'GangwonEduPowerExtraBoldA';
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+}
+
+.title {
+    font-family: 'GangwonEduPowerExtraBoldA';
+    font-size: 3rem;
+    color: white;
+}
+
+.divider {
+    &.small {
+        width: 3.25rem;
+        height: 0;
+        margin: 1.5rem auto;
+        border: none;
+        border-top: 0.2rem solid #0d1847;
+        opacity: 1;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+}

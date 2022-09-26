@@ -1,0 +1,68 @@
+.Education {
+  display: flex;
+}
+.Education.background1 {
+  flex-direction: column;
+  background-color: rgb(105, 105, 105);
+}
+.Education.title {
+  justify-content: center;
+  font-family: "GangwonEduPowerExtraBoldA";
+  font-size: 40px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.Education.item_layout1 {
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Education.group {
+  flex-direction: row;
+  justify-content: center;
+  font-family: "GangwonEduPowerExtraBoldA";
+  font-size: 20px;
+  color: white;
+  padding-top: 1rem;
+}
+.Education.logo {
+  width: 30%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-right: 5rem;
+}
+.Education.divider.small {
+  width: 3.25rem;
+  height: 0;
+  border: none;
+  border-top: 0.2rem solid #ffffff;
+  opacity: 1;
+}
+.Education.rowgroup {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.Education.rowgroup.logo {
+  width: 25%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-right: 2rem;
+}
+.Education.rowgroup.group {
+  width: 400px;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "GangwonEduPowerExtraBoldA";
+  font-size: 15px;
+  color: white;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}/*# sourceMappingURL=Education.css.map */

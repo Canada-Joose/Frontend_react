@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'GangwonEduPowerExtraBoldA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: #ffffff;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 1%;
+  font-size: 1.5rem;
+  color: rgb(29, 29, 97);
+  font-family: 'GangwonEduPowerExtraBoldA';
+}
+

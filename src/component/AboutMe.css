@@ -1,0 +1,53 @@
+.AboutMe {
+  display: flex;
+}
+.AboutMe.item_layout {
+  width: 100%;
+  height: 50%;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.AboutMe.picture {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 18%;
+  max-width: 250px;
+  border-radius: 70%;
+  overflow: hidden;
+}
+.AboutMe.details {
+  padding-left: 7rem;
+  width: 20rem;
+  height: 12rem;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.AboutMe.title {
+  justify-content: center;
+  font-family: "GangwonEduPowerExtraBoldA";
+  font-size: 40px;
+  color: black;
+  padding-top: 1rem;
+  margin-bottom: 0;
+}
+.AboutMe.divider.small {
+  width: 3.25rem;
+  height: 0;
+  border: none;
+  border-top: 0.2rem solid #0b1235;
+  opacity: 1;
+}
+.AboutMe.body {
+  height: 30%;
+  font-family: "GangwonEduPowerExtraBoldA";
+  font-size: 160%;
+  padding-bottom: 5%;
+}
+
+.white {
+  color: white;
+}/*# sourceMappingURL=AboutMe.css.map */

@@ -1,0 +1,63 @@
+.Skills {
+    display: flex;
+
+    &.background2 {
+        background-color: #f9c51d;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &.title {
+        justify-content: center;
+        font-family: 'GangwonEduPowerExtraBoldA';
+        color: black;
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+
+    &.divider {
+        &.small {
+            width: 3.25rem;
+            height: 0;
+            border: none;
+            border-top: 0.2rem solid #000000;
+            opacity: 1;
+        }
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+}
+
+.imgbox {
+    font-family: 'GangwonEduPowerExtraBoldA';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 25%;
+    background-color: white;
+    margin: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    -webkit-box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
+    padding-bottom: 1rem;
+}
+
+.blue {
+    color: rgb(4, 4, 75);
+}
+
+.toolimg {
+    object-fit: contain;
+    width: 45rem;
+    height: 5rem;
+}
